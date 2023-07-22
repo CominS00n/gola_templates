@@ -13,12 +13,12 @@
   </header>
   <body>
     <div class="container mx-auto">
-      <div class="flex relative mt-20 w-[1400px] h-[1006px]">
-        <div class="absolute grid grid-cols-2 items-end right-28 bottom-0 w-32">
-          <img src="@/img/Untitled design.png" alt="#" class="text-[#DB574D]" />
-          <span class="pb-2">Scroll Down & Explore</span>
+      <div class="flex relative mt-20 h-[1006px]">
+        <div class="absolute grid grid-cols-2 items-end right-28 bottom-0 w-52 justify-items-end">
+          <img src="@/img/Untitled design.png" alt="#" />
+          <p class="pb-4">Scroll Down & Explore</p>
         </div>
-        <div class="absolute right-0">
+        <div class="absolute right-20">
           <img src="https://i.imgur.com/Vaz5R7J.png" alt="image" />
         </div>
         <div class="absolute left-[140px] top-[231px] text-[#DB574D]">
@@ -56,17 +56,19 @@
 
       <div class="grid grid-cols-3 mt-40 px-52">
         <div class="col-start-1 font-headers w-full text-xl mt-10"><p>- Services</p></div>
-        <div>
+        <div class="col-start-2 col-span-2">
           <ser-vices
             num="01"
             title="Photo Shooting"
             text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, ut illum deleniti impedit deserunt exercitationem sint pariatur suscipit nam minus!"
-            />
+          />
+          <hr>
           <ser-vices
             num="02"
             title="Video Editing"
             text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, ut illum deleniti impedit deserunt exercitationem sint pariatur suscipit nam minus!"
           />
+          <hr>
           <ser-vices
             num="02"
             title="Art Direction"
@@ -74,17 +76,23 @@
           />
         </div>
       </div>
+      <latest-work />
+      <exhibitions />
     </div>
   </body>
 </template>
 
 <script>
 import SerVices from '@/components/services.vue'
+import LatestWork from '../components/LatestWork.vue'
+import Exhibitions from '../components/Exhibitions.vue'
 
 export default {
   name: 'AboutView',
   components: {
-    SerVices
+    SerVices,
+    LatestWork,
+    Exhibitions
   }
 }
 </script>
