@@ -6,7 +6,7 @@
         <h1 class="ml-5 text-[#DB574D]">Work</h1>
       </div>
 
-       <!-- Link to all content latest page -->
+      <!-- Link to all content latest page -->
       <router-link to="">
         <div class="flex items-center gap-3 font-headers">
           <p>View All</p>
@@ -27,7 +27,12 @@
               Dancing in <br />
               Black & <span class="capitalize text-[#DB574D]">White</span>
             </h1>
-            <img src="https://i.imgur.com/Vaz5R7J.png" alt="##" class="mt-3" />
+            <img
+              data-aos="fade-up"
+              src="https://i.imgur.com/Vaz5R7J.png"
+              alt="##"
+              class="mt-3"
+            />
             <p class="text-base capitalize mt-3">
               new york <br />
               october 2021
@@ -37,7 +42,12 @@
         <div class="grid justify-center">
           <div class="img text-3xl">
             <h1 class="uppercase">week <span class="capitalize text-[#DB574D]">Fashion</span></h1>
-            <img src="@/img/weekFashion.png" alt="##" class="mt-3" />
+            <img
+              data-aos="fade-up"
+              src="@/img/weekFashion.png"
+              alt="##"
+              class="mt-3"
+            />
             <p class="text-base capitalize mt-3">
               new york <br />
               october 2021
@@ -51,7 +61,12 @@
             <h1 class="uppercase">
               style <span class="capitalize text-[#DB574D]">& Fashion</span>
             </h1>
-            <img src="@/img/style&fashion.png" alt="##" class="mt-3" />
+            <img
+              data-aos="fade-up"
+              src="@/img/style&fashion.png"
+              alt="##"
+              class="mt-3"
+            />
             <p class="text-base capitalize mt-3">
               new york <br />
               october 2021
@@ -61,7 +76,12 @@
         <div class="grid justify-center">
           <div class="img text-3xl">
             <h1 class="uppercase">one <span class="capitalize text-[#DB574D]">Eye</span></h1>
-            <img src="@/img/oneEye.png" alt="##" class="mt-3" />
+            <img
+              data-aos="fade-up"
+              src="@/img/oneEye.png"
+              alt="##"
+              class="mt-3"
+            />
             <p class="text-base capitalize mt-3">
               new york <br />
               october 2021
@@ -79,12 +99,12 @@ export default {
 }
 </script>
 
-<style scoped>
+<!-- <style scoped>
 .img {
-  transition: scale 1s;
+  transition: scale 2ms;
 }
 
 .img:hover {
   scale: 1.2;
 }
-</style>
+</style> -->

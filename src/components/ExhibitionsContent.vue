@@ -1,5 +1,5 @@
 <template>
-  <div class="grid grid-cols-6 gap-8 items-center h-auto py-14">
+  <div data-aos="flip-down" class="grid grid-cols-6 gap-8 items-center h-auto py-14">
     <div class="col-start-1">
       <img :src="imgLink" alt="#" class="img" />
     </div>

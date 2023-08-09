@@ -12,8 +12,15 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "@auth0/auth0-vue": "^2.3.0",
+    "aos": "^2.3.4",
+    "boxicons": "^2.1.4",
     "vue": "^3.3.4",
-    "vue-router": "^4.2.2"
+    "vue-gapi": "^2.1.2",
+    "vue-google-oauth2": "^1.5.10",
+    "vue-router": "^4.2.2",
+    "vue3-google-login": "^2.0.18",
+    "vue3-google-oauth2": "^1.0.7"
   },
   "devDependencies": {
     "@rushstack/eslint-patch": "^1.2.0",
